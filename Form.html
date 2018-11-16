@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Job Application Form</title>
+    <style>
+
+        body{
+            background-image: url("../img/background.jpg");
+            color: white;
+            font-family: "Comic Sans MS", sans-serif;
+            border-style: inset;
+        }
+
+        h1{
+            text-align: center;
+        }
+        h2{
+            background-color: darkred;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 0 15px black;
+
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            font-size: 15px;
+            padding: 7px;
+        }
+        .button {
+            background-color: dodgerblue;
+            border:solid;
+            color: black;
+            padding: 10px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 2px 1px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Online job  application form</h1>
+   <form action="/action_page.php"> <div>
+        <div id="Personal-information">
+        <h2>Personal Information</h2>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="First Name" required></td>
+                    <td>Middle Name</td>
+                    <td><input type="text" ></td>
+                   <td>Last Name</td>
+                    <td><input type="text"  required ></td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text" </td>
+                    <td>Mother's Name</td>
+                    <td><input type="text" </td>
+                </tr>
+                <tr>
+                  <td>Current Address</td>
+                    <td><textarea rows="5" colos="25"></textarea></td>
+                    <td>Permanent Address</td>
+                    <td><textarea rows="5" colos="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number"value="number"></td>
+                    <td>LandLine</td>
+                    <td><input type="number" value="number"></td>
+                </tr>
+                <tr><td>DOB</td>
+                    <td><input type="number" value="number"></td>
+                </tr>
+                <tr><td>Place of birth</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Gender</td>
+                    <td><input type="radio" name="gender" value="male">male</td>
+                    <td><input type="radio" name="gender" value="female">female</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                <td>
+                    <select>
+                        <option>American</option>
+                        <option>Indian</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Aadhar card no</td>
+                    <td><input type="number"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div id="Educational- Detail">
+                <h2>Educational-Details</h2>
+                <table>
+                    <tr>
+                        <td>Sno</td>
+                        <td>Qualification</td>
+                        <td>Institute</td>
+                        <td>Year of passing</td>
+                        <td>Marks</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="month"></td>
+                        <td><input type="number" max="100" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="month"></td>
+                        <td><input type="number" max="100" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="month"></td>
+                        <td><input type="number" max="100" min="0"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="Work-Exp">
+                <h2>Work-Experience(Optional)</h2>
+                <table>
+                    <tr>
+                        <td>Sno</td>
+                        <td>Company Address</td>
+                        <td>Profile</td>
+                        <td>From</td>
+                        <td>To</td>
+                    </tr>
+                    <td>1</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="month"></td>
+                    <td><input type="month"></td>
+
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="month"></td>
+                        <td><input type="month"></td>
+                    </tr>
+                </table>
+                <input type="button" class="button" value="Submit">
+
+    </form>
+</body>
+</html>
